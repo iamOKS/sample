@@ -1,0 +1,41 @@
+@import url(navbar.css);
+.container{
+
+	position: absolute;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+.card {
+    margin: 5vmin;
+    display: flex;
+    flex-direction: row;
+    max-width: 80vmin;
+    border: 0;
+    background-color: #696969;
+    color: #fff;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+    position: static;
+}
+.card img {
+    max-width: 55%;
+    height: 30vmin;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-section {
+    float: right;
+    max-width: 100%;
+}
+
+.text-section .name{
+    font-size: larger;
+}
